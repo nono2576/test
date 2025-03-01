@@ -39,12 +39,17 @@ header {
 
 /* ===== index.html 用のスタイル ===== */
 
-
+header.mokuzi {
+    background-color: #3b0505; 
+    padding: 20px;
+    font-size: 24px;
+}
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
     background-color: #222;
+    /* background-color: #222; */
     border-radius: 10px;
 }
 .button.index {
