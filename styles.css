@@ -1,0 +1,75 @@
+/* ===== minecraft_hp.html 用のスタイル ===== */
+body.minecraft {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #0c420e; /* 深い緑色 */
+    color: #ebf1ef85;
+    margin: 0;
+    padding: 0;
+}
+header.minecraft {
+    background-color: #111412; /* シーグリーン */
+    padding: 20px;
+    font-size: 24px;
+}
+.container1 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #3cb371; /* ミディアムシーグリーン */
+    border-radius: 10px;
+}
+.container2 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #131414; /* ミディアムシーグリーン */
+    color: #360b12;
+    border-radius: 10px;
+}
+.button.minecraft {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #8b4513; /* サドルブラウン */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* ===== index.html 用のスタイル ===== */
+body.index {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+header.index {
+    background-color: #1f1f1f;
+    padding: 20px;
+    font-size: 24px;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+}
+.button.index {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff4500;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* ===== 共通のスタイル ===== */
+.game-image {
+    width: 100%;
+    border-radius: 10px;
+}
