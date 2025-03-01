@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
 }
-header.minecraft {
+header {
     background-color: #111412; /* シーグリーン */
     padding: 20px;
     font-size: 24px;
@@ -39,11 +39,7 @@ header.minecraft {
 
 /* ===== index.html 用のスタイル ===== */
 
-header.index {
-    background-color: #1f1f1f;
-    padding: 20px;
-    font-size: 24px;
-}
+
 .container {
     max-width: 800px;
     margin: 20px auto;
